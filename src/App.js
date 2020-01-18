@@ -9,7 +9,6 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/listPets" component={ViewPets}></Route>
         <Route path="/" component={Home}></Route>
       </Switch>
     </Router>
