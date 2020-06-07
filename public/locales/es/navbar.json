@@ -1,0 +1,15 @@
+{
+  "login": "Iniciar sesión",
+  "singIn": "Registrate",
+  "editProfile": "Editar Perfil",
+  "logout": "Salir",
+  "profile": "Perfil",
+  "myProfile": "Mi perfil",
+  "dashboard": "Panel De control",
+  "transitUser": "Voluntarios",
+  "searchVolanteers": "Buscar voluntarios",
+  "createPet": "Crear Mascota",
+  "petsAdopted": "Adoptadas",
+  "myPets": "Mis mascotas",
+  "forAdoption": "En Adopción"
+}

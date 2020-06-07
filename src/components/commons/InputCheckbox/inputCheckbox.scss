@@ -1,0 +1,73 @@
+@import 'styles/mixings';
+
+.container {
+  padding: 20px 8px 18px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-breakpoint-only(xs) {
+    padding: 18px 16px 18px 21px;
+  }
+}
+
+.containerSwitch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.containerAnswer {
+  position: relative;
+}
+
+.answer {
+  position: absolute;
+  font-size: 10px;
+  top: -8px;
+  left: -22px;
+
+  &.isYes {
+    font-size: 9px;
+    top: -8px;
+    left: -39px;
+  }
+}
+
+.switch {
+  padding-right: 20px;
+  margin-top: -7px;
+}
+
+.value {
+  color: $title;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.labelSwitch {
+  cursor: pointer;
+  color: $title;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.label {
+  color: $title;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.valueAndLabel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerLabel {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid $borderPrimary;
+}

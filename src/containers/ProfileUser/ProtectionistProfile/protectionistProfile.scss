@@ -1,0 +1,52 @@
+@import 'styles/mixings';
+
+.containerTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.containerCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+  @include media-breakpoint-down(md) {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+.userImage {
+  width: 100%;
+  height: 400px;
+  image-orientation: from-image;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.layourCard {
+  padding-top: 15px;
+}
+
+.containerPets {
+  display: flex;
+  justify-content: center;
+
+  @include media-breakpoint-only(xs) {
+    flex-direction: column;
+  }
+}
+
+.buttonsSwich {
+  margin-top: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  @include media-breakpoint-down(md) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "login": "Login",
+  "singIn": "Sing In",
+  "editProfile": "Edit profile",
+  "logout": "Logout",
+  "profile": "Profile",
+  "dashboard": "Dashboard",
+  "myProfile": "My profile",
+  "transitUser": "Volanteers",
+  "searchVolanteers": "Search volanteers",
+  "createPet": "Create Pet",
+  "petsAdopted": "Adopted",
+  "myPets": "My Pets",
+  "forAdoption": "For adoption"
+}

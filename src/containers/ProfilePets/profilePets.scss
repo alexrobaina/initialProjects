@@ -1,0 +1,31 @@
+@import 'styles/mixings.scss';
+
+.containerCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+
+  @include media-breakpoint-down(sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.layourCard {
+  padding-top: 15px;
+}
+
+.containerImagePet {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 30px;
+}

@@ -1,0 +1,21 @@
+@import 'styles/mixings.scss';
+
+.containerCard {
+  box-shadow: 0 3px 46px -5px rgba(0, 0, 0, 0.092);
+  border-radius: 10px;
+  height: auto;
+  margin-top: 20px;
+  transition: 0.2s;
+
+  &.isButton {
+    cursor: pointer;
+
+    @include media-breakpoint-down(md) {
+      margin: 0;
+    }
+
+    &:hover {
+      box-shadow: 0 2px 28px rgba(0, 0, 0, 0.1), 0 2px 30px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
