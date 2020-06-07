@@ -119,5 +119,5 @@ GoogleAutocomplete.defaultProps = {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyCG4to6zaiKQpUhXTPRnYWXcoJ8RxU5nps',
+  apiKey: 'apiKey',
 })(GoogleAutocomplete)
