@@ -1,19 +1,19 @@
-import React, { Fragment, useEffect } from 'react'
+import React from 'react'
+import { observer } from 'mobx-react'
 import { useTranslation } from 'react-i18next'
-// import c from 'classnames'
-import InitialFormFilters from '../../components/InitialFormFilters'
-import Title from '../../components/commons/Title/Title'
-import styles from './home.module.scss'
-import Navbar from '../../components/commons/Navbar/Navbar'
+import LayoutContainer from 'components/commons/LayoutContainer'
+import LayoutTrantitions from 'components/commons/LayoutTrantitions'
+import styles from './home.scss'
 
 const Home = () => {
+  const { t } = useTranslation('home')
+
   return (
-    <Fragment>
-      <Title
-        title={'Search for your best friend'}
-        subTitle={'Do not buy a breed pet, adopt a homeless one'}
-      />
-    </Fragment>
+    <LayoutContainer>
+      <div className={styles.title}>{t('home')}</div>
+      <LayoutTrantitions>Este es el home</LayoutTrantitions>
+    </LayoutContainer>
   )
 }
-export default Home
+
+export default observer(Home)
